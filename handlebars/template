@@ -1,0 +1,24 @@
+<p>{{name}}</p>
+{{age}}
+{{{html}}}
+{{html}}
+
+{# @root  @first @index  @key  @last #}
+{{@root.name}}
+
+{{#each list}}
+  {{#if @first}}
+  First!
+  {{/if}}
+{{/each}}
+
+{{#each list}}
+  First!
+{{/each}}
+
+{{#with person}}
+{{firstname}} {{lastname}}
+{{/with}}
+
+{{firstname}} {{loud lastname}}
+
